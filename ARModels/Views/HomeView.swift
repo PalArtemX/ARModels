@@ -36,9 +36,15 @@ struct HomeView : View {
             ARViewContainer(modelConfirmedForPlacement: $modelConfirmedForPlacement)
             
             if isPlacementEnabled {
-                PlacementButtonsView(isPlacementEnabled: $isPlacementEnabled, selectedModel: $selectedModel, modelConfirmedForPlacement: $modelConfirmedForPlacement)
+                PlacementButtonsView(
+                    isPlacementEnabled: $isPlacementEnabled,
+                    selectedModel: $selectedModel,
+                    modelConfirmedForPlacement: $modelConfirmedForPlacement)
             } else {
-                PickerView(isPlacementEnabled: $isPlacementEnabled, selectedModel: $selectedModel, modelsAR: modelsAR)
+                PickerView(
+                    isPlacementEnabled: $isPlacementEnabled,
+                    selectedModel: $selectedModel,
+                    modelsAR: modelsAR)
             }
         }
         .ignoresSafeArea()
