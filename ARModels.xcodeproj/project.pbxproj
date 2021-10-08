@@ -18,6 +18,7 @@
 		1A2B4D6D2710646400A876E1 /* Rectangular.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B4D6C2710646400A876E1 /* Rectangular.usdz */; };
 		1A2B4D6F2710BA3400A876E1 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B4D6E2710BA3300A876E1 /* gramophone.usdz */; };
 		1A2B4D712710BB4000A876E1 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B4D702710BB4000A876E1 /* chair_swan.usdz */; };
+		1A2B4D732710BB7200A876E1 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B4D722710BB7200A876E1 /* tv_retro.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		1A2B4D6C2710646400A876E1 /* Rectangular.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Rectangular.usdz; sourceTree = "<group>"; };
 		1A2B4D6E2710BA3300A876E1 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
 		1A2B4D702710BB4000A876E1 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		1A2B4D722710BB7200A876E1 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				1A2B4D6C2710646400A876E1 /* Rectangular.usdz */,
 				1A2B4D6E2710BA3300A876E1 /* gramophone.usdz */,
 				1A2B4D702710BB4000A876E1 /* chair_swan.usdz */,
+				1A2B4D722710BB7200A876E1 /* tv_retro.usdz */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2B4D732710BB7200A876E1 /* tv_retro.usdz in Resources */,
 				1A2B4D58271062AA00A876E1 /* Preview Assets.xcassets in Resources */,
 				1A2B4D55271062AA00A876E1 /* Assets.xcassets in Resources */,
 				1A2B4D6D2710646400A876E1 /* Rectangular.usdz in Resources */,
