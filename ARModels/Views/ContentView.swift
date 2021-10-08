@@ -1,35 +1,63 @@
 //
 //  ContentView.swift
-//  ARModels
+//  ModelAR
 //
-//  Created by Artem Palyutin on 08.10.2021.
+//  Created by Artem Palyutin on 07.10.2021.
 //
 
 import SwiftUI
 import RealityKit
 
 struct ContentView : View {
+    @State private var isPlacementEnabled = false
+    @State private var selectedModel: ModelAR?
+    @State private var modelConfirmedForPlacement: ModelAR?
+    
+    var modelsAR: [ModelAR] = {
+        let fileManager = FileManager.default
+        
+        guard let path = Bundle.main.resourcePath,
+              let files = try? fileManager.contentsOfDirectory(atPath: path) else {
+                  return []
+              }
+        
+        var availableModels: [ModelAR] = []
+        for fileName in files where fileName.hasSuffix("usdz") {
+            let modelName = fileName.replacingOccurrences(of: ".usdz", with: "")
+            let modelAR = ModelAR(modelName: modelName)
+            availableModels.append(modelAR)
+        }
+        return availableModels
+    }()
+    
+    
+    
     var body: some View {
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
+        ZStack(alignment: .bottom) {
+            
+            ARViewContainer(modelConfirmedForPlacement: $modelConfirmedForPlacement)
+            
+            if isPlacementEnabled {
+                PlacementButtonsView(isPlacementEnabled: $isPlacementEnabled, selectedModel: $selectedModel, modelConfirmedForPlacement: $modelConfirmedForPlacement)
+            } else {
+                PickerView(isPlacementEnabled: $isPlacementEnabled, selectedModel: $selectedModel, modelsAR: modelsAR)
+            }
+            
+            
+            
+        }
+        .ignoresSafeArea()
     }
 }
 
-struct ARViewContainer: UIViewRepresentable {
-    
-    func makeUIView(context: Context) -> ARView {
-        
-        let arView = ARView(frame: .zero)
-        
-        // Load the "Box" scene from the "Experience" Reality File
 
-        
-        return arView
-        
-    }
-    
-    func updateUIView(_ uiView: ARView, context: Context) {}
-    
-}
+
+
+
+
+
+
+
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
