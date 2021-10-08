@@ -39,7 +39,7 @@ struct PlacementButtonsView: View {
         .padding(.bottom)
     }
     
-    // MARK: - func
+    // MARK: - func resetPlacementParameters
     func resetPlacementParameters() {
         isPlacementEnabled = false
         selectedModel = nil
@@ -57,6 +57,6 @@ struct PlacementButtonsView: View {
 
 struct PlacementButtonsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }

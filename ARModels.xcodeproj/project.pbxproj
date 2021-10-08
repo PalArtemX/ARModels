@@ -14,8 +14,9 @@
 		1A2B4D642710638000A876E1 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B4D632710638000A876E1 /* ARViewContainer.swift */; };
 		1A2B4D69271063BB00A876E1 /* PlacementButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B4D66271063BB00A876E1 /* PlacementButtonsView.swift */; };
 		1A2B4D6A271063BB00A876E1 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B4D67271063BB00A876E1 /* PickerView.swift */; };
-		1A2B4D6B271063BB00A876E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B4D68271063BB00A876E1 /* ContentView.swift */; };
+		1A2B4D6B271063BB00A876E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B4D68271063BB00A876E1 /* HomeView.swift */; };
 		1A2B4D6D2710646400A876E1 /* Rectangular.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B4D6C2710646400A876E1 /* Rectangular.usdz */; };
+		1A2B4D6F2710BA3400A876E1 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B4D6E2710BA3300A876E1 /* gramophone.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,9 @@
 		1A2B4D632710638000A876E1 /* ARViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		1A2B4D66271063BB00A876E1 /* PlacementButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacementButtonsView.swift; sourceTree = "<group>"; };
 		1A2B4D67271063BB00A876E1 /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
-		1A2B4D68271063BB00A876E1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A2B4D68271063BB00A876E1 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1A2B4D6C2710646400A876E1 /* Rectangular.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Rectangular.usdz; sourceTree = "<group>"; };
+		1A2B4D6E2710BA3300A876E1 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				1A2B4D6C2710646400A876E1 /* Rectangular.usdz */,
+				1A2B4D6E2710BA3300A876E1 /* gramophone.usdz */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,7 +102,7 @@
 		1A2B4D65271063BB00A876E1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1A2B4D68271063BB00A876E1 /* ContentView.swift */,
+				1A2B4D68271063BB00A876E1 /* HomeView.swift */,
 				1A2B4D67271063BB00A876E1 /* PickerView.swift */,
 				1A2B4D66271063BB00A876E1 /* PlacementButtonsView.swift */,
 			);
@@ -167,6 +170,7 @@
 				1A2B4D58271062AA00A876E1 /* Preview Assets.xcassets in Resources */,
 				1A2B4D55271062AA00A876E1 /* Assets.xcassets in Resources */,
 				1A2B4D6D2710646400A876E1 /* Rectangular.usdz in Resources */,
+				1A2B4D6F2710BA3400A876E1 /* gramophone.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +183,7 @@
 			files = (
 				1A2B4D69271063BB00A876E1 /* PlacementButtonsView.swift in Sources */,
 				1A2B4D602710631700A876E1 /* ViewModelAR.swift in Sources */,
-				1A2B4D6B271063BB00A876E1 /* ContentView.swift in Sources */,
+				1A2B4D6B271063BB00A876E1 /* HomeView.swift in Sources */,
 				1A2B4D642710638000A876E1 /* ARViewContainer.swift in Sources */,
 				1A2B4D6A271063BB00A876E1 /* PickerView.swift in Sources */,
 				1A2B4D4F271062A600A876E1 /* AppDelegate.swift in Sources */,

@@ -28,9 +28,7 @@ struct ARViewContainer: UIViewRepresentable {
         }
         // Starting the configuration -- Запуск конфигурации
         arView.session.run(config)
-        
-        
-        
+ 
         return arView
         
     }

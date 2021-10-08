@@ -17,6 +17,7 @@ struct PickerView: View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 30) {
                 ForEach(0..<modelsAR.count) { index in
+                    
                     Button {
                         selectedModel = modelsAR[index]
                         
@@ -50,6 +51,6 @@ struct PickerView: View {
 
 struct PickerView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }
