@@ -15,6 +15,7 @@
 		1A2B4D69271063BB00A876E1 /* PlacementButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B4D66271063BB00A876E1 /* PlacementButtonsView.swift */; };
 		1A2B4D6A271063BB00A876E1 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B4D67271063BB00A876E1 /* PickerView.swift */; };
 		1A2B4D6B271063BB00A876E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B4D68271063BB00A876E1 /* ContentView.swift */; };
+		1A2B4D6D2710646400A876E1 /* Rectangular.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B4D6C2710646400A876E1 /* Rectangular.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1A2B4D66271063BB00A876E1 /* PlacementButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacementButtonsView.swift; sourceTree = "<group>"; };
 		1A2B4D67271063BB00A876E1 /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		1A2B4D68271063BB00A876E1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A2B4D6C2710646400A876E1 /* Rectangular.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Rectangular.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		1A2B4D622710636800A876E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1A2B4D6C2710646400A876E1 /* Rectangular.usdz */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				1A2B4D58271062AA00A876E1 /* Preview Assets.xcassets in Resources */,
 				1A2B4D55271062AA00A876E1 /* Assets.xcassets in Resources */,
+				1A2B4D6D2710646400A876E1 /* Rectangular.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
